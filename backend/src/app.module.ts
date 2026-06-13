@@ -27,13 +27,16 @@ import { AuthModule } from './auth/auth.module';
         password: config.get('DB_PASSWORD'),
 
         database: config.get('DB_DATABASE'),
+        ssl: {
+      rejectUnauthorized: false,
+    },
 
         autoLoadEntities: true,
 
         synchronize: true,
       }),
     }),
-
+    
     ProjectsModule,
     CloudinaryModule,
     
