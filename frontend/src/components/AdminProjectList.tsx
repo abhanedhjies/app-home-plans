@@ -26,7 +26,17 @@ export default function AdminProjectList() {
 
     if (!confirmed) return;
 
-    await api.delete(`/projects/${id}`);
+    const token =
+  localStorage.getItem("token");
+
+await api.delete(
+  `/projects/${id}`,
+  {
+    headers: {
+      Authorization: `Bearer ${token}`,
+    },
+  }
+);
 
     fetchProjects();
   };

@@ -38,11 +38,21 @@ export default function AdminProjectForm() {
 
         setUploading(false);
       }
+      const token =
+  localStorage.getItem("token");
 
-      await api.post("/projects", {
-        ...form,
-        coverImage: imageUrl,
-      });
+      await api.post(
+  "/projects",
+  {
+    ...form,
+    coverImage: imageUrl,
+  },
+  {
+    headers: {
+      Authorization: `Bearer ${token}`,
+    },
+  }
+);
 
       alert("Project Added Successfully");
 
