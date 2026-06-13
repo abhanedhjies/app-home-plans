@@ -5,63 +5,30 @@ export default function Navbar() {
     <nav className="bg-white shadow-md sticky top-0 z-50">
   <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
 
-    <div className="flex items-center gap-4">
-      <Image
-        src="/logo.jpeg"
-        alt="APP Home Plans"
-        width={90}
-        height={90}
-        className="h-auto"
-      />
+    <div className="flex items-center gap-3">
+  <img
+    src="/logo.jpeg"
+    alt="APP Home Plans"
+    className="w-12 md:w-16"
+  />
 
-      <div>
-        <h1 className="text-4xl font-extrabold text-blue-950">
-          APP Home Plans
-        </h1>
+  <div>
+    <h1 className="text-lg md:text-3xl font-bold text-blue-950">
+      APP Home Plans
+    </h1>
 
-        <p className="text-sm text-gray-500">
-          Since 2003
-        </p>
-      </div>
-    </div>
+    <p className="text-xs md:text-base text-gray-500">
+      Since 2003
+    </p>
+  </div>
+</div>
 
-    <div className="flex gap-8">
-
-  <a
-    href="#home"
-    className="hover:text-[#0F2A66] transition"
-  >
-    Home
-  </a>
-
-  <a
-    href="#about"
-    className="hover:text-[#0F2A66] transition"
-  >
-    About
-  </a>
-
-  <a
-    href="#services"
-    className="hover:text-[#0F2A66] transition"
-  >
-    Services
-  </a>
-
-  <a
-    href="#projects"
-    className="hover:text-[#0F2A66] transition"
-  >
-    Projects
-  </a>
-
-  <a
-    href="#contact"
-    className="hover:text-[#0F2A66] transition"
-  >
-    Contact
-  </a>
-
+   <div className="hidden md:flex gap-10">
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#projects">Projects</a>
+  <a href="#contact">Contact</a>
 </div>
 
       </div>

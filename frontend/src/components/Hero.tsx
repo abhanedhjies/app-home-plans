@@ -16,11 +16,18 @@ export default function Hero() {
               Established Since 2003
             </span>
 
-            <h1 className="text-5xl lg:text-7xl font-extrabold text-white leading-tight drop-shadow-lg">
-      Building Dreams
-      <br />
-      With Precision
-    </h1>
+            <h1
+              className="
+              text-5xl
+              md:text-7xl
+              font-bold
+              leading-tight
+              "
+              >
+              Building Dreams
+              <br />
+              With Precision
+              </h1>
 
             <p className="text-xl text-gray-100 mt-8 leading-relaxed max-w-2xl">
               APP Home Plans delivers complete construction
