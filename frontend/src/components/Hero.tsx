@@ -23,20 +23,15 @@ export default function Hero() {
             </span>
 
           <h1
-          className="
-            text-4xl
-            sm:text-5xl
-            md:text-6xl
-            lg:text-7xl
-            font-black
-            leading-tight
-            tracking-tight
-            text-white
-          ">
-          Building Dreams
-          <br />
-          With Precision
-        </h1>
+  style={{
+    color: "#ffffff",
+  }}
+  className="font-black text-5xl md:text-7xl leading-tight"
+>
+  Building Dreams
+  <br />
+  With Precision
+</h1>
 
             <p className="text-base md:text-lg lg:text-xl text-gray-100 mt-8 leading-relaxed max-w-2xl">
               APP Home Plans delivers complete construction
