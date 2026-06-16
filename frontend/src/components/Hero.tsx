@@ -22,25 +22,21 @@ export default function Hero() {
               Established Since 2003
             </span>
 
-           <h1
-              className="
-                text-4xl
-                sm:text-5xl
-                md:text-6xl
-                lg:text-7xl
-                font-black
-                leading-tight
-                text-white
-              "
-              style={{
-                textShadow:
-                  "0 2px 8px rgba(0,0,0,0.6), 0 0 25px rgba(255,255,255,0.25)",
-              }}
-            >
-              Building Dreams
-              <br />
-              With Precision
-            </h1>
+          <h1
+          className="
+            text-4xl
+            sm:text-5xl
+            md:text-6xl
+            lg:text-7xl
+            font-black
+            leading-tight
+            tracking-tight
+            text-white
+          ">
+          Building Dreams
+          <br />
+          With Precision
+        </h1>
 
             <p className="text-base md:text-lg lg:text-xl text-gray-100 mt-8 leading-relaxed max-w-2xl">
               APP Home Plans delivers complete construction
