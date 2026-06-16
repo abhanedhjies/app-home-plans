@@ -22,12 +22,7 @@ export default function Hero() {
               Established Since 2003
             </span>
 
-          <h1
-  style={{
-    color: "#ffffff",
-  }}
-  className="font-black text-5xl md:text-7xl leading-tight"
->
+          <h1 className="slide-title text-white font-black text-5xl md:text-7xl leading-tight">
   Building Dreams
   <br />
   With Precision
