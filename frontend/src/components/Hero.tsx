@@ -23,19 +23,20 @@ export default function Hero() {
             </span>
 
            <h1
-  className="
-  text-4xl
-  sm:text-5xl
-  md:text-6xl
-  lg:text-7xl
-  font-extrabold
-  leading-tight
-  text-white
-  "
-  style={{
-    textShadow: "0 4px 15px rgba(0,0,0,0.4)",
-  }}
->
+              className="
+                text-4xl
+                sm:text-5xl
+                md:text-6xl
+                lg:text-7xl
+                font-black
+                leading-tight
+                text-white
+              "
+              style={{
+                textShadow:
+                  "0 2px 8px rgba(0,0,0,0.6), 0 0 25px rgba(255,255,255,0.25)",
+              }}
+            >
               Building Dreams
               <br />
               With Precision

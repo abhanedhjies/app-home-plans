@@ -27,11 +27,31 @@ export default function Projects() {
           Featured Projects
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div
+        className="
+        flex
+        gap-6
+        overflow-x-auto
+        pb-4
+        snap-x
+        snap-mandatory
+        "
+        >
           {projects.map((project) => (
             <div
-              key={project.id}
-              className="bg-white rounded-2xl shadow-lg overflow-hidden border hover:shadow-2xl transition"
+            key={project.id}
+            className="
+            min-w-[320px]
+            md:min-w-[380px]
+            bg-white
+            rounded-2xl
+            shadow-lg
+            overflow-hidden
+            border
+            hover:shadow-2xl
+            transition
+            snap-start
+            "
             >
               {project.coverImage && (
                 <Image

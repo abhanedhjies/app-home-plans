@@ -43,3 +43,11 @@ h5,
 h6 {
   color: #0f2a66;
 }
+::-webkit-scrollbar {
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0f2a66;
+  border-radius: 10px;
+}
